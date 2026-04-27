@@ -20,7 +20,7 @@ function createPhotoMap () {
   var map = L.map('map').setView([29.97, -90.287], 11);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
-  var basemap = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer/tile/{z}/{y}/{x}', {
+var Stadia_AlidadeSmoothDark = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}', {
   	maxZoom: 11,
   	attribution: 'USGS'
   }).addTo(map);
