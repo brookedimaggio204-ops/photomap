@@ -22,7 +22,6 @@ function createPhotoMap () {
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
 var basemap = L.tileLayer('https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer', {
  maxZoom: 11,
- attribution: 'USGS'
 }).addTo(map);
 
   
