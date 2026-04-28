@@ -17,7 +17,7 @@ function createPhotoMap () {
   var csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR5O2_9cIOw2ycdMFqHvzEnzL8vZTjGMTVcr-SY7TZh0coWjxS6e3AWgCu7o2cVmOTBm26bYrNRqreT/pub?gid=0&single=true&output=csv';
   
   // create map object with center lat/lon and zoom level
-  var map = L.map('map').setView([29.97, -90.287], 10);
+  var map = L.map('map').setView([30, -90.6], 10);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
 var CartoDB_DarkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
